@@ -23,7 +23,6 @@ const BookTour = () => {
                 <input {...register("destination", { required: true, maxLength: 20 })} placeholder="Destination Name" />
                 <input type="number" {...register("price")} placeholder="Price" />
                 <textarea {...register("description")} placeholder="Place description" />
-                <input {...register("img")} placeholder="image url" />
                 <input type="submit" />
             </form>
 

@@ -1,8 +1,6 @@
-# We Care - The Best Care Center for Elderly People.
+# We Travel - Amazing Tours And Fun Adventures Waiting For You.
 
-Amazing Tours And Fun Adventures Waiting For You.
-
-## Live Website Link [We Travel](https://we-care-elderly-people.netlify.app/).
+## Live Website Link [We Travel]().
 
 ## Services We Provide:
 
@@ -10,3 +8,4 @@ Amazing Tours And Fun Adventures Waiting For You.
 - User can select their package from our existing packages
 - We care about users' safety
 - We're professional in dealings traveling problems
+- Users will get customer care from our dedicated members
