@@ -30,7 +30,7 @@ const Header = () => {
                             !user.displayName ?
                                 <div>
                                     <Link to="/login">
-                                        <button className="regular-btn">Sign Up</button>
+                                        <button className="regular-btn">Login</button>
                                     </Link>
                                 </div> :
                                 <div>

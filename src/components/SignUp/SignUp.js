@@ -9,7 +9,7 @@ const SignUp = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
-    const { signInUsingGoogle, signInUsingGithub, createUserUsingEmail } = useAuth();
+    const { signInUsingGoogle, createUserUsingEmail } = useAuth();
 
     // handleLogin function call 
     const handleSignUp = (event) => {
@@ -62,9 +62,7 @@ const SignUp = () => {
                 <Button onClick={signInUsingGoogle} className="regular-btn m-3 ms-0">
                     Google Sign In
                 </Button>
-                <Button onClick={signInUsingGithub} className="regular-btn m-3">
-                    GitHub Sign In
-                </Button>
+
                 <br />
                 <Link to="/login">
                     Already have an account?
