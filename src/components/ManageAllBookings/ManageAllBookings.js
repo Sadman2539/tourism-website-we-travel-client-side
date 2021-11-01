@@ -5,14 +5,14 @@ import { Card, Col, Row } from "react-bootstrap";
 const ManageAllBookings = () => {
     const [bookings, setBookings] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/manageBookings')
+        fetch('https://grisly-warlock-36369.herokuapp.com/manageBookings')
             .then(res => res.json())
             .then(data => setBookings(data))
     }, []);
 
     // handleDelete function call 
     const handleDelete = id => {
-        const url = `http://localhost:5000/manageBookings/${id}`;
+        const url = `https://grisly-warlock-36369.herokuapp.com/manageBookings/${id}`;
         fetch(url, {
             method: 'DELETE'
         })

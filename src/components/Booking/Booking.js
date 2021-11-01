@@ -27,8 +27,7 @@ const Booking = (props) => {
     //   post booking data to database 
     const onSubmit = data => {
         console.log(data);
-        // https://grisly-warlock-36369.herokuapp.com/
-        axios.post('http://localhost:5000/manageBookings', data)
+        axios.post('https://grisly-warlock-36369.herokuapp.com/manageBookings', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully')
