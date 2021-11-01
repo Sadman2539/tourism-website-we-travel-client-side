@@ -10,13 +10,13 @@ import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Header from './components/Header/Header';
-import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import Booking from './components/Booking/Booking';
+import AddNewService from './components/AddNewService/AddNewService';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Footer from './components/Footer/Footer';
-import BookTour from './components/BookTour/BookTour';
 import MyBookings from './components/MyBookings/MyBookings';
 import ManageAllBookings from './components/ManageAllBookings/ManageAllBookings';
 
@@ -48,17 +48,18 @@ function App() {
             <Route exact path="/services">
               <Services></Services>
             </Route>
-            <PrivateRoute exact path="/bookTour">
-              <BookTour></BookTour>
-            </PrivateRoute>
-            <PrivateRoute exact path="/service-details/:serviceId">
-              <ServiceDetails></ServiceDetails>
+
+            <PrivateRoute exact path="/booking/:bookingId">
+              <Booking></Booking>
             </PrivateRoute>
             <PrivateRoute exact path="/myBookings">
               <MyBookings></MyBookings>
             </PrivateRoute>
             <PrivateRoute exact path="/manageBookings">
               <ManageAllBookings></ManageAllBookings>
+            </PrivateRoute>
+            <PrivateRoute exact path="/add-new-service">
+              <AddNewService></AddNewService>
             </PrivateRoute>
 
 

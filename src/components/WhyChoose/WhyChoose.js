@@ -15,10 +15,10 @@ const WhyChoose = () => {
                 </div>
                 <div className="mt-4">
                     <h3>
-                        <i class="fas fa-map-marked"></i>
+                        <i className="fas fa-map-marked"></i>
                         Professional and Certified</h3>
                     <p>We provide professional service.</p>
-                    <h3><i class="fas fa-plane"></i>Get Instant Tour Bookings</h3>
+                    <h3><i className="fas fa-plane"></i>Get Instant Tour Bookings</h3>
                     <p>We provide instant tour booking.</p>
 
                 </div>

@@ -18,8 +18,8 @@ const Service = (props) => {
                     <Card.Text>
                         {description}
                     </Card.Text>
-                    <NavLink to={`/service-details/${_id}`}>
-                        <button className="regular-btn">Details</button>
+                    <NavLink to={`/booking/${_id}`}>
+                        <button className="regular-btn">Book Now</button>
                     </NavLink>
                 </Card.Body>
 

@@ -15,7 +15,7 @@ const Header = () => {
             <Container>
                 <Navbar.Brand as={HashLink} to="/home">
                     We Travel
-                    <i class="fas fa-globe"></i>
+                    <i className="fas fa-globe"></i>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -36,7 +36,7 @@ const Header = () => {
                                 <div>
                                     <NavLink as={HashLink} to="/myBookings" >My Bookings</NavLink>
                                     <NavLink as={HashLink} to="/manageBookings" >Manage All Bookings</NavLink>
-                                    <NavLink as={HashLink} to="/bookTour" >Book a trip</NavLink>
+                                    <NavLink as={HashLink} to="/add-new-service" >Add A New Service</NavLink>
                                     <span className=" me-4"> {user.displayName}!</span>
                                     <button onClick={logout} className="regular-btn">Log Out</button>
                                 </div>

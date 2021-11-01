@@ -1,0 +1,19 @@
+.booking-form {
+  height: 600px;
+  padding-top: 20px;
+}
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-form form input,
+select {
+  width: 40%;
+  height: 3rem;
+  border: 2px solid rgb(54, 170, 174);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

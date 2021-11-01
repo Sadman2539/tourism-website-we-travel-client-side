@@ -19,10 +19,10 @@ const Home = () => {
             <div className="welcome-section" id="home">
                 <div className="welcome-content">
                     <h3 className="w-75 text-center">We provide the best travel package for you!</h3>
-                    <NavLink to="/bookTour">
+                    <NavLink to="/booking/:serviceId">
                         <button className="regular-btn m-3 mx-auto">
                             Book a Tour
-                            <span><i class="fas fa-arrow-right ms-2"></i></span>
+                            <span><i className="fas fa-arrow-right ms-2"></i></span>
                         </button>
                     </NavLink>
 
@@ -42,7 +42,7 @@ const Home = () => {
                     </Row>
                     <NavLink to="/services">
                         <button className="regular-btn m-3 mx-auto">More
-                            <span><i class="fas fa-arrow-right ms-2"></i></span>
+                            <span><i className="fas fa-arrow-right ms-2"></i></span>
                         </button>
                     </NavLink>
 

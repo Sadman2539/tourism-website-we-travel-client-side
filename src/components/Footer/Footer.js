@@ -10,9 +10,9 @@ const Footer = () => {
             </div>
             <div className="contact-icons">
                 <h5>Contact Us</h5>
-                <span><i class="fab fa-youtube fa-2x  me-2"></i></span>
-                <span><i class="fab fa-facebook fa-2x  me-2"></i></span>
-                <span><i class="fas fa-envelope fa-2x "></i></span>
+                <span><i className="fab fa-youtube fa-2x  me-2"></i></span>
+                <span><i className="fab fa-facebook fa-2x  me-2"></i></span>
+                <span><i className="fas fa-envelope fa-2x "></i></span>
             </div>
         </div >
     );

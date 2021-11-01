@@ -11,7 +11,7 @@ const Services = () => {
         fetch('https://grisly-warlock-36369.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data))
-    }, [])
+    }, []);
     return (
         <div className="container mt-5">
             <h1 className="text-center">Our Services</h1>
@@ -25,7 +25,7 @@ const Services = () => {
             <NavLink to={"/"}>
 
                 <button className="regular-btn mt-4">
-                    <span><i class="fas fa-arrow-left me-2"></i></span>
+                    <span><i className="fas fa-arrow-left me-2"></i></span>
                     Bo Back</button>
             </NavLink>
         </div>

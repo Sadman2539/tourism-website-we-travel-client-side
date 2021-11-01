@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <br />
             <button className="regular-btn mt-3">Read More
-                <span><i class="fas fa-arrow-right ms-2"></i></span>
+                <span><i className="fas fa-arrow-right ms-2"></i></span>
             </button>
         </div>
     );
